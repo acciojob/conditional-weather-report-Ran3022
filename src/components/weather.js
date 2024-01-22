@@ -13,7 +13,7 @@ const WeatherApp = () => {
         <p>
           Temperature:{" "}
           <span style={{ color: temperatureColor }}>
-            {weather.temperature}°C
+            {weather.temperature}
           </span>
         </p>
         <p>Conditions: {weather.conditions}</p>
@@ -21,7 +21,7 @@ const WeatherApp = () => {
     );
   };
 
-  // Sample weather input
+  // Adjusted sampleWeather to have a temperature of 20
   const sampleWeather = { temperature: 20, conditions: "Sunny" };
 
   return (
