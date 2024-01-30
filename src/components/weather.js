@@ -22,7 +22,7 @@ const WeatherApp = () => {
   };
 
   // Adjusted sampleWeather to have a temperature of 20
-  const sampleWeather = { temperature: 20, conditions: "Sunny" };
+  const sampleWeather = { temperature: 25, conditions: "Sunny" };
 
   return (
     <div>
